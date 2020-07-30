@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">COVID19 TRACKER</string>
+    <string name="covid_19_tracker_for_india">covid 19 tracker for india</string>
+    <string name="total_cases">TOTAL CASES</string>
+    <string name="_8000">8000</string>
+    <string name="active">ACTIVE</string>
+    <string name="recovered">RECOVERED</string>
+    <string name="deaths">DEATHS</string>
+    <string name="_345">345</string>
+    <string name="_7000">7000</string>
+    <string name="_400">400</string>
+    <string name="the_total_cases">The total cases</string>
+    <string name="last_updated">Last Updated : %s</string>
+</resources>

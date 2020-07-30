@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3"
+        android:fontFamily="@font/fredoka_one"
+        android:text="REGION"
+
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/dark_green"
+        android:fontFamily="@font/fredoka_one"
+        android:text="TOTAL"
+        android:textSize="12sp"/>
+    <TextView
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:textColor="@color/light_blue"
+        android:fontFamily="@font/fredoka_one"
+        android:layout_marginRight="2dp"
+        android:text="ACTIVE"
+        android:textAlignment="viewEnd"
+        android:textSize="12sp"/>
+    <TextView
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:textAlignment="viewEnd"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3"
+        android:textColor="@color/dark_blue"
+        android:fontFamily="@font/fredoka_one"
+        android:text="RECOVERED"
+        android:textSize="12sp"/>
+    <TextView
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/dark_red"
+        android:fontFamily="@font/fredoka_one"
+        android:text="DEATHS"
+        android:textSize="12sp"/>
+
+</LinearLayout>

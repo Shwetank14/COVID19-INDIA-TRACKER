@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/stateTv"
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3"
+        android:textColor="@color/jet_black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/cnfTv"
+        android:textAlignment="viewEnd"
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/actTv"
+        android:padding="3dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:textStyle="bold"
+        android:textAlignment="viewEnd"
+        />
+    <TextView
+        android:id="@+id/rcvTv"
+        android:padding="3dp"
+        android:textAlignment="viewEnd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_weight="1.2" />
+    <TextView
+        android:id="@+id/dthTv"
+        android:padding="3dp"
+        android:textAlignment="viewEnd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_weight="0.9"
+        />
+
+</LinearLayout>
